@@ -1,0 +1,35 @@
+{
+  "name": "twitchat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drilmo/twitchat-API.git"
+  },
+  "keywords": [
+    "twitchat"
+  ],
+  "author": "Drilmo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Drilmo/twitchat-API/issues"
+  },
+  "homepage": "https://github.com/Drilmo/twitchat-API#readme",
+  "dependencies": {
+    "@types/twitchat": "^1.0.0",
+    "obs-websocket-js": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.2"
+  }
+}
